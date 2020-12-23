@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidScreenCapture", "AndroidScreenCapture\AndroidScreenCapture.csproj", "{E8A23CCD-3506-4A7C-A269-0FEAA2827DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adb", "adb\adb.csproj", "{A50ED68E-D982-4A4B-93BD-986D0E958974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A23CCD-3506-4A7C-A269-0FEAA2827DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A23CCD-3506-4A7C-A269-0FEAA2827DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A23CCD-3506-4A7C-A269-0FEAA2827DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A23CCD-3506-4A7C-A269-0FEAA2827DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50ED68E-D982-4A4B-93BD-986D0E958974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50ED68E-D982-4A4B-93BD-986D0E958974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50ED68E-D982-4A4B-93BD-986D0E958974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50ED68E-D982-4A4B-93BD-986D0E958974}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7047C1D6-A723-4441-8035-A221D3674990}
+	EndGlobalSection
+EndGlobal
