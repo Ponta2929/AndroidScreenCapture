@@ -84,7 +84,7 @@ namespace adb
                 if (!Socket.Connected)
                     return Encoding.ASCII.GetBytes("FAIL");
 
-                var post = string.Format("{0:X4}{1}", postData.Length, postData);
+                var post = $"{postData.Length:X4}{postData}";
 
                 // ポストデータ
                 var byteData =

@@ -97,7 +97,7 @@ namespace AndroidScreenCapture
 
             return false;
         }
-        
+
         private void MainForm_ResizeBegin(object sender, EventArgs e)
         {
             c_width = this.ClientSize.Width;

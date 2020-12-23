@@ -84,10 +84,10 @@ namespace adb
             for (var i = 0; i < 10; i++)
             {
                 result = Command("host:transport-any",
-                     string.Format("shell:getevent '-i' '/dev/input/event{0}'", i));
+                     $"shell:getevent '-i' '/dev/input/event{i}'");
 
                 if (Encoding.ASCII.GetString(result).Contains("INPUT_PROP_DIRECT"))
-                    return string.Format("event{0}", i);
+                    return $"event{i}";
             }
 
             return "event0";
