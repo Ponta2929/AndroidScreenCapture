@@ -2,4 +2,4 @@
 Android端末の画面をキャプチャするツールです。
 
 SDK Platform Toolsをダウンロードして環境変数にPathを追加します。
-AndroidをPCに接続して、アプリケーションを実行します。
+AndroidをPCに接続し、Android端末のUBSデバッグを有効にして、アプリケーションを実行します。
